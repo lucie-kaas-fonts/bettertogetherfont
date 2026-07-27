@@ -1,29 +1,32 @@
 /* 
   Better Together Font - Web Font Declarations
-  
-  Add your @font-face declarations below.
-  Update the font names and file paths to match your fonts.
+  Custom fonts for Klaviyo email templates and sign-up forms
 */
 
 @font-face {
-  font-family: 'BetterTogetherFont';
-  /* 
-    Replace 'font-name' with your actual font file name
-    WOFF2 is preferred (better compression), WOFF is fallback
-  */
-  src: url('../fonts/font-name.woff2') format('woff2'),
-       url('../fonts/font-name.woff') format('woff');
+  font-family: 'BetterTogether-Condensed';
+  src: url('../fonts/BetterTogether-Condensed.woff2') format('woff2'),
+       url('../fonts/BetterTogether-Condensed.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Ensures text shows while font loads */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BetterTogether-Script';
+  src: url('../fonts/BetterTogether-Script.woff2') format('woff2'),
+       url('../fonts/BetterTogether-Script.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* 
-  Example usage in CSS:
+  Usage in Klaviyo emails:
   
-  body {
-    font-family: 'BetterTogetherFont', sans-serif;
-  }
+  For Condensed font:
+  font-family: 'BetterTogether-Condensed', sans-serif;
   
-  For Klaviyo emails, add this entire block to custom CSS
+  For Script font:
+  font-family: 'BetterTogether-Script', cursive;
 */
