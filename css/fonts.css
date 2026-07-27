@@ -1,0 +1,29 @@
+/* 
+  Better Together Font - Web Font Declarations
+  
+  Add your @font-face declarations below.
+  Update the font names and file paths to match your fonts.
+*/
+
+@font-face {
+  font-family: 'BetterTogetherFont';
+  /* 
+    Replace 'font-name' with your actual font file name
+    WOFF2 is preferred (better compression), WOFF is fallback
+  */
+  src: url('../fonts/font-name.woff2') format('woff2'),
+       url('../fonts/font-name.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Ensures text shows while font loads */
+}
+
+/* 
+  Example usage in CSS:
+  
+  body {
+    font-family: 'BetterTogetherFont', sans-serif;
+  }
+  
+  For Klaviyo emails, add this entire block to custom CSS
+*/
