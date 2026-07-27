@@ -1,87 +1,58 @@
-# Better Together Font - Hosted Web Fonts
+# Better Together Custom Fonts
 
-Custom web fonts optimized for Klaviyo email templates and sign-up forms.
+Hosted custom web fonts for Better Together brand email templates and sign-up forms.
 
-## 📁 Repository Structure
+## 📦 Font Files
+
+- **BetterTogether-Condensed** - Bold, clean condensed typeface
+  - `BetterTogether-Condenesed.woff2` (17.8 KB)
+  - `BetterTogether-Condenesed.woff` (24.8 KB)
+
+- **BetterTogether-Script** - Elegant script typeface
+  - `BetterTogether-Script.woff2` (21.4 KB)
+  - `BetterTogether-Script.woff` (27.1 KB)
+
+## 🔗 Font URLs
+
+Use these URLs to reference the fonts:
 
 ```
-bettertogetherfont/
-├── fonts/                 # Web font files (WOFF2, WOFF)
-├── css/
-│   └── fonts.css         # @font-face declarations
-├── README.md             # This file
-└── index.html            # Demo page (optional)
+https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff2
+https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff
+https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff2
+https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff
 ```
 
-## 🚀 Quick Start
+## 🎨 Usage
 
-### 1. Convert Your Fonts
-
-If you have TTF files, convert them to web formats:
-- Visit [Transfonter.org](https://transfonter.org/) or [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
-- Upload your `.ttf` file
-- Download **WOFF2** and **WOFF** versions
-- Place converted files in the `fonts/` folder
-
-### 2. Font Files Location
-
-All font files should be placed in:
-```
-fonts/
-├── your-font-name.woff2
-└── your-font-name.woff
-```
-
-### 3. CSS Configuration
-
-The `css/fonts.css` file contains `@font-face` declarations that reference your fonts.
-
-### 4. Host with GitHub Pages
-
-This repository is automatically hosted via GitHub Pages:
-
-**Your fonts are accessible at:**
-```
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/your-font-name.woff2
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/your-font-name.woff
-```
-
-### 5. Use in Klaviyo
-
-Add the following CSS in your Klaviyo email or form:
-
+### In Email Templates (CSS)
 ```css
 @font-face {
-  font-family: 'YourFontName';
-  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/your-font-name.woff2') format('woff2'),
-       url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/your-font-name.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'BetterTogether-Condensed';
+  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff2') format('woff2');
   font-display: swap;
 }
-
-body { font-family: 'YourFontName', sans-serif; }
 ```
 
-## 📋 Steps to Set Up
+### In Klaviyo
+1. Go to **Content** → **Images & brand** → **Fonts**
+2. Click **"Import font"**
+3. Paste the WOFF URL for maximum compatibility
+4. Select font in your sign-up forms or email templates
 
-1. **Convert your TTF font** to WOFF2 and WOFF formats
-2. **Add font files** to the `fonts/` folder
-3. **Update `css/fonts.css`** with your font-face declarations
-4. **Enable GitHub Pages** (Settings → Pages → Source: main branch)
-5. **Copy the hosted font URL** to use in Klaviyo
+## 📖 Documentation
 
-## 🔗 Resources
+- See [KLAVIYO-GUIDE.md](KLAVIYO-GUIDE.md) for detailed Klaviyo integration instructions
+- View the demo at https://lucie-kaas-fonts.github.io/bettertogetherfont/
 
-- [Transfonter Font Converter](https://transfonter.org/)
-- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Klaviyo Custom Email Design Guide](https://help.klaviyo.com/)
+## ✨ Features
 
-## 📝 Font License
+- ✅ WOFF2 format (modern, optimized)
+- ✅ WOFF fallback (maximum compatibility)
+- ✅ Hosted on GitHub Pages (fast, reliable)
+- ✅ Optimized for web and email use
+- ✅ Font-display: swap for better performance
 
-⚠️ **Important:** Ensure you have the proper license to host and distribute your fonts. Only use fonts you own or have permission to use.
+## 📄 License
 
----
-
-**Setup complete!** Add your converted font files and update the CSS to get started.
+These fonts are custom assets for the Better Together brand.

@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: 'BetterTogether-Condensed';
-  src: url('../fonts/BetterTogether-Condensed.woff2') format('woff2'),
-       url('../fonts/BetterTogether-Condensed.woff') format('woff');
+  src: url('../fonts/BetterTogether-Condenesed.woff2') format('woff2'),
+       url('../fonts/BetterTogether-Condenesed.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
