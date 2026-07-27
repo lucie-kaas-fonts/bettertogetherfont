@@ -13,9 +13,9 @@
 }
 
 @font-face {
-  font-family: 'BetterTogether-Script';
-  src: url('../fonts/BetterTogether-Script.woff2') format('woff2'),
-       url('../fonts/BetterTogether-Script.woff') format('woff');
+  font-family: 'BetterTogether-Caps';
+  src: url('../fonts/BetterTogether-Caps.woff2') format('woff2'),
+       url('../fonts/BetterTogether-Caps.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,6 +27,6 @@
   For Condensed font:
   font-family: 'BetterTogether-Condensed', sans-serif;
   
-  For Script font:
-  font-family: 'BetterTogether-Script', cursive;
+  For Caps font:
+  font-family: 'BetterTogether-Caps', sans-serif;
 */

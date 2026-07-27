@@ -7,10 +7,10 @@ Your custom fonts are now hosted and ready to use! Here's how to integrate them 
 Your fonts are hosted at these URLs:
 
 ```
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff2
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff2
-https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff
+https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Condenesed.woff2
+https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Condenesed.woff
+https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Caps.woff2
+https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Caps.woff
 ```
 
 ## 🎨 Adding Fonts to Klaviyo Sign-up Forms
@@ -23,11 +23,11 @@ https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Scrip
 ### **Step 2: Import Each Font**
 
 **For BetterTogether-Condensed:**
-- Source Address: `https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff`
+- Source Address: `https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Condenesed.woff`
 - Click **Import**
 
-**For BetterTogether-Script:**
-- Source Address: `https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff`
+**For BetterTogether-Caps:**
+- Source Address: `https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Caps.woff`
 - Click **Import**
 
 ### **Step 3: Use in Your Forms**
@@ -40,15 +40,15 @@ Add this CSS to your Klaviyo email's custom CSS section:
 ```css
 @font-face {
   font-family: 'BetterTogether-Condensed';
-  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff2') format('woff2'),
-       url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Condenesed.woff') format('woff');
+  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Condenesed.woff2') format('woff2'),
+       url('https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Condenesed.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'BetterTogether-Script';
-  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff2') format('woff2'),
-       url('https://lucie-kaas-fonts.github.io/bettertogetherfont/fonts/BetterTogether-Script.woff') format('woff');
+  font-family: 'BetterTogether-Caps';
+  src: url('https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Caps.woff2') format('woff2'),
+       url('https://lucie-kaas-fonts.github.io/bettertogetherfont/BetterTogether-Caps.woff') format('woff');
   font-display: swap;
 }
 ```
@@ -56,7 +56,7 @@ Add this CSS to your Klaviyo email's custom CSS section:
 Then use in your email HTML:
 ```html
 <h1 style="font-family: 'BetterTogether-Condensed', sans-serif;">Your Heading</h1>
-<p style="font-family: 'BetterTogether-Script', cursive;">Your decorative text</p>
+<p style="font-family: 'BetterTogether-Caps', sans-serif;">YOUR IMPACTFUL MESSAGE</p>
 ```
 
 ## ✅ Testing
